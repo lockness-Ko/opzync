@@ -1,0 +1,12 @@
+[Unit]
+Description=sync your OPZ to other CV controlled synths, without an OPZ module!
+
+[Service]
+Type=simple
+ExecStart=/home/pi/opzync/opzync.sh
+Restart=on-failure
+RestartSec=2
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
