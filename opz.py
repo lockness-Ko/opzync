@@ -52,6 +52,11 @@ def beat():
 
 def reset():
     led_status.on()
+
+    if running:
+        cv_clock(4)
+        cv_clock(12)
+        cv_clock(24)
     
     beats = 0
     clocks = 0

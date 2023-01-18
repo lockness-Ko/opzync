@@ -48,7 +48,7 @@ sudo systemctl start opzync
 To stop, run
 
 ```bash
-sudo systemctl stop opzync
+sudo systemctl stop opzync && ./kill_opzync.sh
 ```
 
 To run opzync when you turn on the pi (e.g. for when you want to use it 
