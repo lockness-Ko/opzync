@@ -35,6 +35,10 @@ To connect the patch cables, use the jumper leads and aligator clips to
 connect the selected pin the the TIP of the patch cable and a ground gpio 
 pin to the SLEEVE of the patch cable
 
+![image](https://user-images.githubusercontent.com/42625905/213072088-2e29ab1d-72bf-4c7a-a987-b1165d24daec.png)
+
+![image](https://user-images.githubusercontent.com/42625905/213070313-bff836af-b559-4954-94d6-59e6ec0c85a6.png)
+
 Refer to this for GPIO pinouts: [https://pinout.xyz/](https://pinout.xyz/)
 
 Connect the flat side of the LED pin to ground and the round side to pin 14
